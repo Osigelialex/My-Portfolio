@@ -1,0 +1,21 @@
+
+[
+    {
+        "title": "Full Stack Social media Application",
+        "description": "A social media Application that manages likes, users, comments, followers, profiles and posts",
+        "stack": "MongoDB, Express, React, NodeJS",
+        "link": "https://github.com/Osigelialex/SocialMediaAPP"
+    },
+    {
+        "title": "Defectly",
+        "description": "Defectly is a web-based application designed to help teams efficiently manage and track software bugs and issues",
+        "stack": "Django, PostgreSQL, HTML, CSS, Javascript",
+        "link": "https://github.com/Osigelialex/defectly"
+    },
+    {
+        "title": "Files management API",
+        "description": "A robust file management API, that manages file uploads and storage",
+        "stack": "Express, MongoDB, Redis",
+        "link": "https://github.com/Osigelialex/alx-files_manager"
+    }
+]
