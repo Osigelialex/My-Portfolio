@@ -1,4 +1,3 @@
-import Contact from './Components/contact'
 import Footer from './Components/footer'
 import Header from './Components/header'
 import Projects from './Components/projects'
@@ -13,7 +12,6 @@ function App() {
       <Hero />
       <About />
       <Projects />
-      <Contact />
       <Footer />
     </div>
   )
