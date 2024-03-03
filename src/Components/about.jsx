@@ -41,7 +41,7 @@ export default function About() {
           <p className="text-blue-400 text-2xl my-3">
             Technologies I've worked with
           </p>
-          <div className="flex gap-7 text-slate-400 sm:text-xl text-md sm:ml-5 my-5">
+          <div className="flex gap-7 text-slate-400 sm:text-xl text-md ml-5 my-5">
             <ul className="list-disc">
               <li>React</li>
               <li>Python</li>
