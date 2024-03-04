@@ -17,7 +17,7 @@ export default function About() {
   return (
     <div
       ref={ref}
-      className="grid sm:mx-20 sm:mt-20 sm:mb-20 relative"
+      className="grid sm:mx-32 sm:mt-20 sm:mb-20 relative"
       id="projects"
     >
       <motion.div
@@ -33,6 +33,7 @@ export default function About() {
         <div className="grid gap-3 sm:grid-cols-3">
           {data.map((project) => (
             <ProjectCard
+              key={project.id}
               title={project.title}
               description={project.description}
               stack={project.stack}

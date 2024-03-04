@@ -1,5 +1,8 @@
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useRef, useEffect } from "react";
+import Card from "@mui/material/Card";
+import CardMedia from "@mui/material/CardMedia";
+import { CardActionArea } from '@mui/material';
 
 export default function About() {
   const ref = useRef(null);
@@ -24,14 +27,14 @@ export default function About() {
     >
       <div
         ref={ref}
-        className="grid sm:grid-cols-2 gap-3 sm:mx-20 sm:mt-20 sm:mb-10 mb-10 relative"
+        className="grid gap-3 sm:grid-cols-2 sm:mx-32 sm:mt-20 sm:mb-10 mb-10 place-items-center relative"
         id="about"
       >
         <div>
           <h1 className="text-blue-400 my-5 sm:text-4xl text-2xl">
             / about-me
           </h1>
-          <p className="text-slate-400 leading-loose sm:w-5/6 w-full sm:text-lg text-md">
+          <p className="text-slate-400 leading-loose w-full sm:text-lg text-md">
             I'm a software Engineer passionate about staying up to date with the
             latest trends in technology, Sharing knowledge, working with teams
             to build projects and documenting my journey online. I'm a graduate
@@ -61,9 +64,16 @@ export default function About() {
           </p>
         </div>
         <div>
-          <img 
-            className="rounded-xl"
-            src="/Me.jpg" />
+          <Card sx={{ maxWidth: 345 }}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                height="140"
+                image="/Me.jpg"
+                alt="green iguana"
+              />
+            </CardActionArea>
+          </Card>
         </div>
       </div>
     </motion.div>

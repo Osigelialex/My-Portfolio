@@ -7,7 +7,7 @@ import { TypeAnimation } from "react-type-animation";
 export default function Hero() {
   return (
     <>
-      <div className="h-screen grid place-items-center sm:items-end pb-5" id="home">
+      <div className="h-screen grid place-items-center pb-5" id="home">
         <div>
           <h1 className="sm:text-2xl text-xl text-slate-50 mb-2">
             <TypeAnimation
