@@ -27,7 +27,7 @@ export default function About() {
     >
       <div
         ref={ref}
-        className="grid gap-3 sm:grid-cols-2 sm:mx-32 sm:mt-20 sm:mb-10 mb-10 place-items-center relative"
+        className="grid gap-3 sm:grid-cols-2 sm:mx-32 sm:mt-20 mb-10 place-items-center relative"
         id="about"
       >
         <div>

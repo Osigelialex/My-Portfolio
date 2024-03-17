@@ -5,7 +5,7 @@ import XIcon from '@mui/icons-material/X';
 
 export default function Header() {
   return (
-    <div className="flex justify-between align-middle sticky top-0 z-40 bg-blue-950">
+    <div className="flex justify-between align-middle sticky top-0 z-40 bg-navy-blue">
       <ul className="hidden sm:flex align-middle gap-4 ml-10 p-3">
         <li className="hover:text-blue-400 text-white font-extrabold">
           <a href="#">Alex Osigeli</a>

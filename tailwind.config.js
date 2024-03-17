@@ -6,7 +6,10 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'madimi': ['Madimi One']
+      'ntr': 'NTR'
+    },
+    backgroundColor: {
+      'navy-blue': '#112240'
     }
   },
   plugins: [],

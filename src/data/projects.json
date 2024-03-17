@@ -16,9 +16,9 @@
     },
     {
         "id": 3,
-        "title": "Files management API",
-        "description": "A robust file management API, that manages file uploads and storage",
-        "stack": "Express, MongoDB, Redis",
-        "link": "https://github.com/Osigelialex/alx-files_manager"
+        "title": "eVTOL transportation",
+        "description": "A system that simulates the delivery of medications to locations using an eVTOL (electonic vertical take-off and landing)",
+        "stack": "Java, Springboot, React, PostgreSQL",
+        "link": "https://github.com/Osigelialex/evtol-transportation-backend"
     }
 ]
