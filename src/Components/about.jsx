@@ -31,45 +31,44 @@ export default function About() {
         id="about"
       >
         <div>
-          <h1 className="text-blue-400 my-5 sm:text-4xl text-2xl">
-            / about-me
+          <h1 className="text-blue-400 my-5 sm:text-4xl text-2xl font-extrabold">
+            About-me
           </h1>
-          <p className="text-slate-400 leading-loose w-full sm:text-lg text-md">
+          <p className="text-slate-400 leading-loose w-full sm:text-xl text-lg">
             I'm a software Engineer passionate about staying up to date with the
             latest trends in technology, Sharing knowledge, working with teams
             to build projects and documenting my journey online. I'm a graduate
             of the ALX software Engineering programme and currently a computer
             Science student at Adeleke University.
           </p>
-          <p className="text-blue-400 text-2xl my-3">
+          <p className="text-blue-400 text-2xl my-3 font-extrabold">
             Technologies I've worked with
           </p>
-          <div className="flex gap-7 text-slate-400 sm:text-xl text-md ml-5 my-5">
-            <ul className="list-disc">
+          <div className="flex gap-20 text-slate-400 sm:text-xl text-md ml-5 my-5">
+            <ul className="list-disc marker:text-blue-400 marker:text-xl">
               <li>React</li>
               <li>Python</li>
               <li>Javascript</li>
               <li>HTML5 + CSS3</li>
             </ul>
-            <ul className="list-disc">
+            <ul className="list-disc marker:text-blue-400 marker:text-xl">
               <li>Django</li>
               <li>Express</li>
-              <li>Flask</li>
+              <li>Springboot</li>
               <li>NodeJS</li>
             </ul>
           </div>
-          <p className="leading-loose text-slate-400 sm:text-lg sm:w-5/6 text-md sm:mb-5 mb-10">
-            Outside programming, I enjoy video games, pencil sketching and I
-            play a lot of chess
+          <p className="leading-loose text-slate-400 sm:text-xl sm:w-5/6 text-md sm:mb-5 mb-10">
+            Outside programming, I enjoy video games, pencil sketching and chess.
           </p>
         </div>
         <div>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345, height: 200 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
-                height="140"
-                image="/Me.jpg"
+                height="200"
+                image="/coding.webp"
                 alt="green iguana"
               />
             </CardActionArea>

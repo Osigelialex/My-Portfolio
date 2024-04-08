@@ -9,8 +9,8 @@ export default function ProjectCard({ title, description, stack, link }) {
         <a href={link} target='_blank' className='cursor-pointer'><GitHubIcon /></a>
       </div>
       <h1 className='text-slate-50 font-bold text-xl my-3'>{ title }</h1>
-      <p className='text-slate-400 text-md mb-10'>{ description }</p>
-      <p className='text-slate-400 text-md absolute bottom-8'>{ stack }</p>
+      <p className='text-slate-400 text-lg mb-10'>{ description }</p>
+      <p className='text-slate-400 text-lg absolute bottom-8'>{ stack }</p>
     </div>
   )
 }
