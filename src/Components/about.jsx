@@ -34,7 +34,7 @@ export default function About() {
           <h1 className="text-blue-400 my-5 sm:text-4xl text-2xl">
             / about-me
           </h1>
-          <p className="text-slate-400 leading-loose w-full sm:text-lg text-md">
+          <p className="text-slate-400 leading-loose w-full sm:text-xl text-lg">
             I'm a software Engineer passionate about staying up to date with the
             latest trends in technology, Sharing knowledge, working with teams
             to build projects and documenting my journey online. I'm a graduate
@@ -58,7 +58,7 @@ export default function About() {
               <li>NodeJS</li>
             </ul>
           </div>
-          <p className="leading-loose text-slate-400 sm:text-lg sm:w-5/6 text-md sm:mb-5 mb-10">
+          <p className="leading-loose text-slate-400 sm:text-xl text-lg sm:w-5/6 text-md sm:mb-5 mb-10">
             Outside programming, I enjoy video games, pencil sketching and I
             play a lot of chess
           </p>
