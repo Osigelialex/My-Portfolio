@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.list-disc li::marker {
+  color: #60a5fa;
+}
+
+.list-disc li::before {
+  content: ''; 
+  position: absolute; 
+  left: -1.25rem;
+  top: 0.25rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #60a5fa;
+  border-radius: 50%;
+}

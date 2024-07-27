@@ -1,9 +1,9 @@
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useRef, useEffect } from "react";
-import data from "../data/projects.json";
-import ProjectCard from "./projectCard";
+import data from "../data/experience.json";
+import ExperienceItem from "./experienceItem";
 
-export default function Project() {
+export default function Experienc() {
   const ref = useRef(null);
   const isInView = useInView(ref);
   const mainControls = useAnimation();
@@ -29,16 +29,15 @@ export default function Project() {
         animate={mainControls}
         transition={{ duration: 0.5, delay: 0.25 }}
       >
-      <h1 className="text-blue-400 my-5 sm:text-4xl text-2xl mt-5">/ Projects</h1>
-        <div className="grid gap-3 sm:grid-cols-3">
+      <h1 className="text-blue-400 my-5 sm:text-4xl text-2xl mt-5">/ Experience</h1>
+        <div className="flex flex-col gap-3">
           {data.map((project) => (
-            <ProjectCard
+            <ExperienceItem
               key={project.id}
+              company={project.company}
               title={project.title}
+              date={project.date}
               description={project.description}
-              stack={project.stack}
-              link={project.link}
-              github={project.github}
             />
           ))}
         </div>

@@ -2,23 +2,31 @@
 [
     {
         "id": 1,
-        "title": "Full Stack Social media Application",
-        "description": "A social media Application that manages likes, users, comments, followers, profiles and posts",
-        "stack": "MongoDB, Express, React, NodeJS",
-        "link": "https://github.com/Osigelialex/Social-media-app"
+        "title": "BidzBuddy",
+        "description": "A web-based application that allows users to create and bid on auctions",
+        "stack": "Java, Springboot, React, PostgreSQL",
+        "link": "https://bidzbuddy.netlify.app",
+        "github": "https://github.com/Osigelialex/bidzbuddy-frontend"
     },
     {
         "id": 2,
-        "title": "Defectly",
-        "description": "Defectly is a web-based application designed to help teams efficiently manage and track software bugs and issues",
-        "stack": "Django, PostgreSQL, HTML, CSS, Javascript",
-        "link": "https://github.com/Osigelialex/defectly"
-    },
-    {
-        "id": 3,
         "title": "eVTOL transportation",
         "description": "A system that simulates the delivery of medications to locations using an eVTOL (electonic vertical take-off and landing)",
         "stack": "Java, Springboot, React, PostgreSQL",
-        "link": "https://github.com/Osigelialex/evtol-transportation-backend"
+        "github": "https://github.com/Osigelialex/evtol-transportation-backend"
+    },
+    {
+        "id": 3,
+        "title": "Full Stack Social media Application",
+        "description": "A social media Application that manages likes, users, comments, followers, profiles and posts",
+        "stack": "MongoDB, Express, React, NodeJS",
+        "github": "https://github.com/Osigelialex/Social-media-app"
+    },
+    {
+        "id": 4,
+        "title": "Defectly",
+        "description": "Defectly is a web-based application designed to help teams efficiently manage and track software bugs and issues",
+        "stack": "Django, PostgreSQL, HTML, CSS, Javascript",
+        "github": "https://github.com/Osigelialex/defectly"
     }
 ]

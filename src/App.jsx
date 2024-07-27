@@ -3,6 +3,7 @@ import Header from "./Components/header";
 import Projects from "./Components/projects";
 import Hero from "./Components/hero";
 import About from "./Components/about";
+import Experience from "./Components/experience";
 import AnimatedCursor from "react-animated-cursor";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Experience />
       <Projects />
       <Footer />
     </div>

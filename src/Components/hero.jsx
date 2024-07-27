@@ -25,7 +25,7 @@ export default function Hero() {
             <Button variant="outlined" href="mailto:osigelialex@gmail.com" endIcon={<EmailIcon />}>
               Say hi
             </Button>
-            <Button variant="outlined" href="https://drive.google.com/file/d/1yH3TvLvCRyX_QwRlIIlVKSaO5QBZ2wqZ/view?usp=drive_link" download='MY_CV.pdf' endIcon={<DownloadIcon />}>
+            <Button variant="outlined" href="https://drive.google.com/file/d/1iqRIJFMQ_g_1OhTv7Yol05GtTwV1qZVm/view?usp=sharing" download='MY_CV.pdf' endIcon={<DownloadIcon />}>
               Download CV
             </Button>
           </div>

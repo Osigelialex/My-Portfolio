@@ -32,7 +32,7 @@ export default function About() {
       >
         <div>
           <h1 className="text-blue-400 my-5 sm:text-4xl text-2xl">
-            / about-me
+            / About-me
           </h1>
           <p className="text-slate-400 leading-loose w-full sm:text-xl text-lg">
             I'm a software Engineer passionate about staying up to date with the
@@ -44,24 +44,22 @@ export default function About() {
           <p className="text-blue-400 text-2xl my-3">
             Technologies I've worked with
           </p>
-          <div className="flex gap-7 text-slate-400 sm:text-xl text-md ml-5 my-5">
-            <ul className="list-disc">
-              <li>React</li>
-              <li>Python</li>
-              <li>Javascript</li>
-              <li>HTML5 + CSS3</li>
+          <div className="flex gap-7 text-slate-400 sm:text-xl text-md my-5">
+            <ul className="list-disc pl-5 space-y-2">
+              <li className="relative">React</li>
+              <li className="relative">Python</li>
+              <li className="relative">Javascript</li>
+              <li className="relative">HTML5 + CSS3</li>
+              <li className="relative">Typescript</li>
             </ul>
-            <ul className="list-disc">
-              <li>Django</li>
-              <li>Express</li>
-              <li>Flask</li>
-              <li>NodeJS</li>
+            <ul className="list-disc pl-5 space-y-2">
+              <li className="relative">Django</li>
+              <li className="relative">Express</li>
+              <li className="relative">Flask</li>
+              <li className="relative">NodeJS</li>
+              <li className="relative">Springboot</li>
             </ul>
           </div>
-          <p className="leading-loose text-slate-400 sm:text-xl text-lg sm:w-5/6 text-md sm:mb-5 mb-10">
-            Outside programming, I enjoy video games, pencil sketching and I
-            play a lot of chess
-          </p>
         </div>
         <div>
           <Card sx={{ maxWidth: 345 }}>
