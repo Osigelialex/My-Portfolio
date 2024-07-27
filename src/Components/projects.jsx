@@ -17,7 +17,7 @@ export default function Project() {
   return (
     <div
       ref={ref}
-      className="grid sm:mx-32 sm:mt-12 sm:mb-20 relative"
+      className="grid sm:mx-32 sm:mt-20 sm:mb-20 relative"
       id="projects"
     >
       <motion.div
