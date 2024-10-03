@@ -5,7 +5,7 @@
         "title": "BidzBuddy",
         "description": "A web-based application that allows users to create and bid on auctions",
         "stack": "Java, Springboot, React, PostgreSQL",
-        "link": "https://bidzbuddy.netlify.app",
+        "link": "https://bidzbuddy.vercel.app",
         "github": "https://github.com/Osigelialex/bidzbuddy-frontend"
     },
     {
